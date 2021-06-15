@@ -1,0 +1,13 @@
+name: bitstream
+description: A package for reading and writing bits
+version: 0.0.1
+author: Beep Ltd
+homepage: https://github.com/beepltd/bitstream
+repository: https://github.com/beepltd/bitstream
+issue_tracker: https://github.com/beepltd/bitstream/issues
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  convert: ^3.0.0
