@@ -48,7 +48,7 @@ bitstream.readBool(); //reads true from the stream
 | ------------------- | ------------------------------------------------------------ |
 | `checkBit(int bit)` | Returns a `bool` if a bit is set or not (does not progress the cursor) |
 | `output()`          | Prints a binary representation of the current stream to the console |
-| `toString()`        | Returns a binary representation of the current strem         |
+| `toString()`        | Returns a binary representation of the current stream        |
 | `getStream()`       | Gets the current stream data as a `Uint8List`                |
 | `getLength()`       | Gets the current length of the stream                        |
 | `getCursor()`       | Gets the current cursor position                             |

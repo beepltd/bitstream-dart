@@ -1,13 +1,12 @@
 name: bitstream
-description: A package for reading and writing bits
-version: 0.0.1
-author: Beep Ltd
+description: BitStream allows for easy manipulation of long strings of bits, for both reading and writing.
+version: 0.0.2
 homepage: https://github.com/beepltd/bitstream
 repository: https://github.com/beepltd/bitstream
 issue_tracker: https://github.com/beepltd/bitstream/issues
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  convert: ^3.0.0
+  convert: ^3.0.1
