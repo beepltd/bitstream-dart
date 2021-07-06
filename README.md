@@ -40,7 +40,7 @@ bitstream.readBool(); //reads true from the stream
 | `string` (ASCII) | `readAsciiString({bytes, bits})` | `writeAsciiString(input, {bytes, bits})` |
 | `string` (HEX)   | `readHexString({bytes, bits})`   | `writeHexString(input, {bytes, bits})`   |
 | `Uint8List`      | `readBytes({bytes, bits})`       | `writeBytes(input, {bytes, bits})`       |
-| `BitStream`      | `readBitStream({bytes, bits})`   |                                          |
+| `BitStream`      | `readBitStream({bytes, bits})`   | `writeBitStream(input, {bytes, bits})`   |
 
 ## Additional Methods
 

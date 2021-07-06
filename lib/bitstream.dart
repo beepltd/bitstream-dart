@@ -168,6 +168,14 @@ class BitStream {
 
   /// Reads a BitStream object from the stream of length [bytes] and [bits]
   BitStream readBitStream({int bytes = 0, int bits = 0}) {
-    return BitStream(stream: readBytes(bytes: bytes, bits: bits));
+    var op=BitStream();
+    op.writeBytes(readBytes(bytes: bytes, bits: bits),bytes: bytes, bits: bits);
+    return op;
+
+  }
+
+  /// Reads a BitStream object from the stream of length [bytes] and [bits]
+  void writeBitStream(BitStream input, {int bytes = 0, int bits = 0}) {
+    writeBytes(input.readBytes(bytes: bytes, bits: bits),bytes: bytes, bits: bits);
   }
 }
