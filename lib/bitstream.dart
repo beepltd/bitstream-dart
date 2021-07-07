@@ -23,6 +23,11 @@ class BitStream {
     return _cursor;
   }
 
+  /// Resets the cursor position
+  void resetCursor() {
+    _cursor=0;
+  }
+
   /// Gets the current length of the stream in bits
   int getLength() {
     return _bitLength;

@@ -52,4 +52,4 @@ bitstream.readBool(); //reads true from the stream
 | `getStream()`       | Gets the current stream data as a `Uint8List`                |
 | `getLength()`       | Gets the current length of the stream                        |
 | `getCursor()`       | Gets the current cursor position                             |
-
+| `resetCursor()`     | Resets the cursor position                                   |

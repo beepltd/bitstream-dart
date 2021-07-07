@@ -1,6 +1,6 @@
 name: bitstream
 description: BitStream allows for easy manipulation of long strings of bits, for both reading and writing.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/beepltd/bitstream
 repository: https://github.com/beepltd/bitstream
 issue_tracker: https://github.com/beepltd/bitstream/issues

@@ -1,3 +1,7 @@
+## [0.0.4] Jul 7, 2021
+
+* Added resetCursor()
+
 ## [0.0.3] Jul 6, 2021
 
 * Resolved issue with reading and writing bitstreams
