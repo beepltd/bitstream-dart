@@ -1,9 +1,9 @@
 name: bitstream
 description: BitStream allows for easy manipulation of long strings of bits, for both reading and writing.
-version: 0.0.4
-homepage: https://github.com/beepltd/bitstream
-repository: https://github.com/beepltd/bitstream
-issue_tracker: https://github.com/beepltd/bitstream/issues
+version: 0.0.5
+homepage: https://github.com/beepltd/bitstream-dart
+repository: https://github.com/beepltd/bitstream-dart
+issue_tracker: https://github.com/beepltd/bitstream-dart/issues
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
