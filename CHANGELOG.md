@@ -1,3 +1,7 @@
+## [1.0.0] Feb 2, 2022
+
+* Updated GitHub repo
+
 ## [0.0.5] Feb 2, 2022
 
 * Added GitHib Action push, updated project URLs
