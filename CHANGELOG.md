@@ -1,3 +1,7 @@
+## [0.0.5] Feb 2, 2022
+
+* Added GitHib Action push, updated project URLs
+
 ## [0.0.4] Jul 7, 2021
 
 * Added resetCursor()
