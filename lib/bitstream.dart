@@ -47,8 +47,9 @@ class BitStream {
     var thisBit = _bitLength % 8;
     while (len > 0) {
       var thisLen = min(len, 8 - thisBit);
-      _stream.length = thisByte + 1;
-      _stream[thisByte] = 0;
+      if (thisByte + 1 > _stream.length) {
+        _stream.add(0);
+      }
       var shiftAmt = (8 - (thisBit + len));
       _stream[thisByte] = _stream[thisByte] |
           (shiftAmt > 0 ? (input << shiftAmt) : (input >> (0 - shiftAmt)));
