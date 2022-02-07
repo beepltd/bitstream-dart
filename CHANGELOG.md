@@ -1,3 +1,7 @@
+## [1.1.0] Feb 7, 2022
+
+* Fixed bug which stopped writing to the bitstream working properly
+
 ## [1.0.0] Feb 2, 2022
 
 * Updated GitHub repo
